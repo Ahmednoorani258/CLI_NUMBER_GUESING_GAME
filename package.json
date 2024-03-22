@@ -1,5 +1,5 @@
 {
-  "name": "cli_number_guesing_game",
+  "name": "noorani_numguessinggame",
   "version": "1.0.0",
   "description": "Simple CLI Number Guessing Game",
   "main": "index.js",
