@@ -1,12 +1,10 @@
 {
   "name": "noorani_numguessinggame",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "Simple CLI Number Guessing Game",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "noorani_numguessinggame": "index.js"
-  },
+  "bin": "index.js",
   "publishConfig": {
     "access": "public"
   },
