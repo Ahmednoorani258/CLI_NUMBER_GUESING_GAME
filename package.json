@@ -1,0 +1,22 @@
+{
+  "name": "cli_number_guesing_game",
+  "version": "1.0.0",
+  "description": "Simple CLI Number Guessing Game",
+  "main": "index.js",
+  "type": "module",
+   "bin": "index.js", 
+   "publishConfig": {
+    "access": "public"
+   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad_Ahmed_Noorani",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
