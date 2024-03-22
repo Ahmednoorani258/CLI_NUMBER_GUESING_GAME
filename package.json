@@ -4,10 +4,12 @@
   "description": "Simple CLI Number Guessing Game",
   "main": "index.js",
   "type": "module",
-   "bin": "index.js", 
-   "publishConfig": {
+  "bin": {
+    "noorani_numguessinggame": "index.js"
+  },
+  "publishConfig": {
     "access": "public"
-   },
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
