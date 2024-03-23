@@ -10,7 +10,7 @@ import chalk from 'chalk';
 
 
 let randomnum:number = Math.floor(Math.random()*100 + 1);
-console.log(randomnum);
+// console.log(randomnum);
 
 
 while(true){
