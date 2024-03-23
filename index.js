@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-console.log(`Welcome to Noorani Number_Guessing_Game`);
 import inquirer from "inquirer";
+import chalk from 'chalk';
+console.log(chalk.bgCyanBright.blue('Welcome to Noorani Number_Guessing_Game'));
 let randomnum = Math.floor(Math.random() * 100 + 1);
+console.log(randomnum);
 while (true) {
     let input = await inquirer.prompt({
         name: "GuessedNumber",
@@ -15,7 +17,7 @@ while (true) {
         break;
     }
     else {
-        console.log(`\nwrong guess`);
+        console.log(`wrong guess`);
     }
     if (input.GuessedNumber > randomnum) {
         console.log('\nYour number is too high');
