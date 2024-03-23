@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 console.log(`Welcome to Noorani Number_Guessing_Game`);
 import inquirer from "inquirer";
-let randomnum = Math.floor(Math.random() * 10 + 1);
+let randomnum = Math.floor(Math.random() * 100 + 1);
 while (true) {
     let input = await inquirer.prompt({
         name: "GuessedNumber",
@@ -11,16 +11,17 @@ while (true) {
     let guessednum = input.GuessedNumber;
     //3)compare user input with computer number
     if (input.GuessedNumber === randomnum) {
-        console.log("Congratulation!) You got it right!");
+        console.log("\nCongratulation!) You got it right!");
         break;
     }
     else {
-        console.log(`wrong guess`);
+        console.log(`\nwrong guess`);
     }
     if (input.GuessedNumber > randomnum) {
-        console.log('Your number is too high');
+        console.log('\nYour number is too high');
     }
     else {
-        console.log("Your number is too low");
+        console.log("\nYour number is too low");
     }
 }
+console.log(`Game over`);

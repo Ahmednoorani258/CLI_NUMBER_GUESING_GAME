@@ -20,14 +20,14 @@ let guessednum = input.GuessedNumber;
 //3)compare user input with computer number
 
 if(input.GuessedNumber === randomnum){
-    console.log("Congratulation!) You got it right!")
+    console.log("\nCongratulation!) You got it right!")
     break;
 }else {console.log(`wrong guess`);
 }
 
  if (input.GuessedNumber > randomnum){
-    console.log('Your number is too high')
-}else{console.log("Your number is too low");
+    console.log('\nYour number is too high')
+}else{console.log("\nYour number is too low");
 }
 }
 
