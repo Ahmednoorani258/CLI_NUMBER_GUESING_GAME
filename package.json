@@ -1,6 +1,6 @@
 {
   "name": "noorani_numguessinggame",
-  "version": "3.0.7",
+  "version": "3.0.9",
   "description": "Simple CLI Number Guessing Game",
   "main": "index.js",
   "type": "module",
@@ -16,9 +16,11 @@
   "author": "Muhammad_Ahmed_Noorani",
   "license": "MIT",
   "dependencies": {
+    "chalk-animation": "^2.0.3",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
     "@types/inquirer": "^9.0.7"
   }
 }
